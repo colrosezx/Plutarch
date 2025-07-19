@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Обязательные мета-теги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Plutarch — автоматизация сбора и анализа данных</title>
+    <meta name="description" content="Мы не просто собираем данные, но и создаем уникальные решения под требования вашего бизнеса, проводим аналитику с использованием технологий AI.">
+
+    <!-- Шрифт Inter UI -->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!-- Стили для поставщиков -->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!-- Bootstrap CSS / Цветовая схема -->
+    <link rel="stylesheet" href="css/orange.css" id="theme-color">
+
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Plutarch Data Analytics",
+            "url": "https://plutarch.ru",
+            "logo": "https://plutarch.ru/img/logo.png",
+            "description": "парсинг сайтов, автоматический сбор данных, анализ данных, парсер для бизнеса, аналитика данных, сбор информации с сайтов, инструмент для сбора данных, веб-скрейпинг, кастомные решения по парсингу, анализ с AI, Искуственный интеллект в парсинге, парсинг маркетплейсов, парсинг магазинов",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+7-982-623-0683",
+                "contactType": "customer service",
+                "email": "plutarchdatahub@gmail.com",
+                "areaServed": "RU",
+                "availableLanguage": ["Russian"]
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Портфолио сайтов для парсинга",
+                "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Boutiqaat",
+                    "url": "https://www.boutiqaat.com",
+                    "areaServed": "Катар, ОАЭ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Debenhams",
+                    "url": "https://www.debenhams.com",
+                    "areaServed": "Катар"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Noon",
+                    "url": "https://www.noon.com",
+                    "areaServed": "Саудовская Аравия, Дубай"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Skinfood",
+                    "url": "https://www.skinfood.by",
+                    "areaServed": "Беларусь"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Wildberries",
+                    "url": "https://www.wildberries.ru/",
+                    "areaServed": "СНГ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Ozon",
+                    "url": "https://www.ozon.ru/",
+                    "areaServed": "СНГ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Сбер Мегамаркет",
+                    "url": "https://megamarket.ru/",
+                    "areaServed": "РФ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Л'Этуаль",
+                    "url": "https://www.letu.ru/",
+                    "areaServed": "СНГ"
+                    }
+                }
+                ]
+            }
+        }
+    </script>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://geeknekos.github.io/Plutarch/" />
+    <meta property="og:title" content="Plutarch Data Analytics | Transform Data into Knowledge" />
+    <meta property="og:description" content="Plutarch Data Analytics помогает бизнесу собирать и анализировать большие объемы данных. Мы разрабатываем кастомные парсеры и инструменты аналитики для бизнеса любых масштабов. Каждое решение создаётся с нуля под специфику вашей ниши и KPI." />
+    <meta property="og:image" content="https://ваш-сайт.ru/image.jpg" />
+
+<!--    <link rel="icon" href="img/plutarch_favicon.jpg" type="image/x-icon">-->
+</head>
+<body>
+
+<!-- Навигация -->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black" href="index.html">
+                <span class="text-white">Plutarch Data Analytics</span>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Переключить навигацию">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#portfolio">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">Особенности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#solutions">Отраслевые решения</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#faq">Часто задаваемые вопросы</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!-- Главный заголовок -->
+<section class="py-7 py-md-0 bg-hero" id="home">
+    <div class="container position-relative">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black">Парсинг, заточенный под ваш бизнес</h1>
+                <p class="lead py-3">Plutarch Data Analytics помогает бизнесу собирать и анализировать большие объемы данных. Мы разрабатываем кастомные парсеры и инструменты аналитики для бизнеса любых масштабов. Каждое решение создаётся с нуля под специфику вашей ниши и KPI.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Портфолио -->
+<div id="portfolio-container"></div>
+<script>
+    fetch('html/portfolio.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('portfolio-container').innerHTML = data;
+        });
+</script>
+
+<!-- Раздел особенностей -->
+<section class="pt-6 pb-7" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="heading-black">Технологии для парсинга и автоматизации</h2>
+                <p class="text-muted lead">Мы — команда профессионалов, которая выполняет персональные заказы по сбору и обработке веб-данных и адаптирует решения под ваши нужды.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row feature-boxes">
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-danger">
+                            <div class="icon-box-inner">
+                                <span data-feather="shield" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Ротация прокси</h5>
+                        <p class="text-muted">Обеспечиваем ротацию прокси для предотвращения блокировки IP и успешного сбора данных.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-info">
+                            <div class="icon-box-inner">
+                                <span data-feather="unlock" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Обход блокировок</h5>
+                        <p class="text-muted">Обходим блокировки и ограничения для выгрузки больших объемов информации.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-primary">
+                            <div class="icon-box-inner">
+                                <span data-feather="clock" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Подмена фингерпринтов</h5>
+                        <p class="text-muted">Имитируем ботов под реальных пользователей, что позволяет нашим сервисам работать круглосуточно</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-success">
+                            <div class="icon-box-inner">
+                                <span data-feather="file" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5>Искусственный интеллект</h5>
+                        <p class="text-muted">Используем нейросети для автоматизации ручных задач, и для предоставления аналитики.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6 mr-auto">
+                <h2>Больше, чем просто сбор данных</h2>
+                <p class="mb-5">Мы проводим углублённую аналитику данных с помощью искусственного интеллекта. Наши решения позволяют бизнесу принимать обоснованные решения на основе данных.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="slick-about">
+                    <img src="img/blog-1.jpg" class="img-fluid rounded d-block mx-auto" alt="Bs4, requests"/>
+                    <img src="img/blog-2.jpg" class="img-fluid rounded d-block mx-auto" alt="Selenium"/>
+                    <img src="img/blog-3.jpg" class="img-fluid rounded d-block mx-auto" alt="Scrapy"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Раздел решений -->
+<section class="py-7 bg-dark section-angle top-right bottom-right" id="solutions">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h2 class="text-white heading-black">Отраслевые решения</h2>
+                <p class="text-light lead">Мы обслуживаем различные отрасли и случаи использования</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="icon-box box-primary">
+                            <div class="icon-box-inner">
+                                <span data-feather="dollar-sign" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5 class="mt-4">Электронная коммерция и розничная торговля</h5>
+                        <p class="text-muted">Сбор цен, описаний, наличия, отзывов и др. с e-commerce сайтов.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="icon-box box-success">
+                            <div class="icon-box-inner">
+                                <span data-feather="briefcase" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5 class="mt-4">Финансовые услуги</h5>
+                        <p class="text-muted">Сбор котировок и экономических индикаторов ценных бумаг.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="icon-box box-info">
+                            <div class="icon-box-inner">
+                                <span data-feather="bar-chart-2" width="35" height="35"></span>
+                            </div>
+                        </div>
+                        <h5 class="mt-4">Исследование рынка</h5>
+                        <p class="text-muted">Мониторинг конкурентов, ценовой политики других магазинов и рыночных трендов.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Раздел часто задаваемых вопросов -->
+<div id="faq-container"></div>
+<script>
+    fetch('html/faq.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('faq-container').innerHTML = data;
+        });
+</script>
+
+<!--подвал-->
+<footer class="py-6">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+                &copy; 2025 Plutarch Data Analytics. Все права защищены.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--промотать вверх-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<!-- Сначала jQuery, потом Popper.js, потом Bootstrap JS -->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/feather.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
