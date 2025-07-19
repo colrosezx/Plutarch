@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://colrosezx.github.io/Plutarch/sitemap.xml
