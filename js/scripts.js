@@ -71,3 +71,143 @@ $(function () {
         $(this).addClass('active');
     });
 });
+
+
+window.addEventListener('load', function() {
+    // Проверяем наличие якоря в URL
+    if (window.location.hash === '#portfolio') {
+        const target = document.getElementById('portfolio');
+        
+        if (target) {
+            // Дополнительные параметры для плавности
+            const scrollOptions = {
+                behavior: 'smooth',
+                block: 'start',    // 'start', 'center', 'end' или 'nearest'
+                inline: 'nearest'
+            };
+
+            // Небольшая задержка для гарантированной загрузки всех элементов
+            setTimeout(() => {
+                target.scrollIntoView(scrollOptions);
+                
+                // Дополнительный offset (если нужно учесть фиксированное меню)
+                const yOffset = -80; // Смещение в пикселях
+                const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                
+                window.scrollTo({top: y, behavior: 'smooth'});
+            }, 100); // Задержка 100мс
+        }
+    }
+});
+
+
+window.addEventListener('load', function() {
+    // Проверяем наличие якоря в URL
+    if (window.location.hash === '#features') {
+        const target = document.getElementById('features');
+        
+        if (target) {
+            // Дополнительные параметры для плавности
+            const scrollOptions = {
+                behavior: 'smooth',
+                block: 'start',    // 'start', 'center', 'end' или 'nearest'
+                inline: 'nearest'
+            };
+
+            // Небольшая задержка для гарантированной загрузки всех элементов
+            setTimeout(() => {
+                target.scrollIntoView(scrollOptions);
+                
+                // Дополнительный offset (если нужно учесть фиксированное меню)
+                const yOffset = -80; // Смещение в пикселях
+                const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                
+                window.scrollTo({top: y, behavior: 'smooth'});
+            }, 100); // Задержка 100мс
+        }
+    }
+});
+
+
+window.addEventListener('load', function() {
+    // Проверяем наличие якоря в URL
+    if (window.location.hash === '#solutions') {
+        const target = document.getElementById('solutions');
+        
+        if (target) {
+            // Дополнительные параметры для плавности
+            const scrollOptions = {
+                behavior: 'smooth',
+                block: 'start',    // 'start', 'center', 'end' или 'nearest'
+                inline: 'nearest'
+            };
+
+            // Небольшая задержка для гарантированной загрузки всех элементов
+            setTimeout(() => {
+                target.scrollIntoView(scrollOptions);
+                
+                // Дополнительный offset (если нужно учесть фиксированное меню)
+                const yOffset = -80; // Смещение в пикселях
+                const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                
+                window.scrollTo({top: y, behavior: 'smooth'});
+            }, 100); // Задержка 100мс
+        }
+    }
+});
+
+
+window.addEventListener('load', function() {
+    // Проверяем наличие якоря в URL
+    if (window.location.hash === '#contacts') {
+        const target = document.getElementById('contacts');
+        
+        if (target) {
+            // Дополнительные параметры для плавности
+            const scrollOptions = {
+                behavior: 'smooth',
+                block: 'start',    // 'start', 'center', 'end' или 'nearest'
+                inline: 'nearest'
+            };
+
+            // Небольшая задержка для гарантированной загрузки всех элементов
+            setTimeout(() => {
+                target.scrollIntoView(scrollOptions);
+                
+                // Дополнительный offset (если нужно учесть фиксированное меню)
+                const yOffset = -80; // Смещение в пикселях
+                const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                
+                window.scrollTo({top: y, behavior: 'smooth'});
+            }, 100); // Задержка 100мс
+        }
+    }
+});
+
+
+window.addEventListener('load', function() {
+    // Проверяем наличие якоря в URL
+    if (window.location.hash === '#faq') {
+        const target = document.getElementById('faq');
+        
+        if (target) {
+            // Дополнительные параметры для плавности
+            const scrollOptions = {
+                behavior: 'smooth',
+                block: 'start',    // 'start', 'center', 'end' или 'nearest'
+                inline: 'nearest'
+            };
+
+            // Небольшая задержка для гарантированной загрузки всех элементов
+            setTimeout(() => {
+                target.scrollIntoView(scrollOptions);
+                
+                // Дополнительный offset (если нужно учесть фиксированное меню)
+                const yOffset = -80; // Смещение в пикселях
+                const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                
+                window.scrollTo({top: y, behavior: 'smooth'});
+            }, 100); // Задержка 100мс
+        }
+    }
+});

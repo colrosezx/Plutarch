@@ -158,6 +158,12 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#faq">Часто задаваемые вопросы</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contacts">Наши контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="blog.html">Блог</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -169,8 +175,8 @@
     <div class="container position-relative">
         <div class="row vh-md-100">
             <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-                <h1 class="heading-black">Парсинг, заточенный под ваш бизнес</h1>
-                <p class="lead py-3">Plutarch Data Analytics помогает бизнесу собирать и анализировать большие объемы данных. Мы разрабатываем кастомные парсеры и инструменты аналитики для бизнеса любых масштабов. Каждое решение создаётся с нуля под специфику вашей ниши и KPI.</p>
+                <h1 class="heading-black">Мониторинг данных, заточенный под ваш бизнес</h1>
+                <p class="lead py-3">Plutarch Data Analytics помогает бизнесу собирать и анализировать большие объемы данных. Мы разрабатываем индивидуальные инструменты для сбора и анализа информации для бизнеса любых масштабов. Каждое решение создаётся с нуля под специфику вашей ниши и KPI.</p>
             </div>
         </div>
     </div>
@@ -191,7 +197,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
-                <h2 class="heading-black">Технологии для парсинга и автоматизации</h2>
+                <h2 class="heading-black">Технологии для сбора данных и автоматизации</h2>
                 <p class="text-muted lead">Мы — команда профессионалов, которая выполняет персональные заказы по сбору и обработке веб-данных и адаптирует решения под ваши нужды.</p>
             </div>
         </div>
@@ -204,8 +210,8 @@
                                 <span data-feather="shield" width="35" height="35"></span>
                             </div>
                         </div>
-                        <h5>Ротация прокси</h5>
-                        <p class="text-muted">Обеспечиваем ротацию прокси для предотвращения блокировки IP и успешного сбора данных.</p>
+                        <h5>Управление прокси-серверами</h5>
+                        <p class="text-muted">Обеспечиваем эффективное управление прокси-серверами для стабильного и надежного сбора данных без нарушения правил целевых ресурсов.</p>
                     </div>
                     <div class="col-md-6 box">
                         <div class="icon-box box-info">
@@ -213,8 +219,8 @@
                                 <span data-feather="unlock" width="35" height="35"></span>
                             </div>
                         </div>
-                        <h5>Обход блокировок</h5>
-                        <p class="text-muted">Обходим блокировки и ограничения для выгрузки больших объемов информации.</p>
+                        <h5>Работа с ограничениями доступа</h5>
+                        <p class="text-muted">Оптимизируем взаимодействие с веб-ресурсами, соблюдая их политику, чтобы обеспечить бесперебойный доступ к информации.</p>
                     </div>
                     <div class="col-md-6 box">
                         <div class="icon-box box-primary">
@@ -222,8 +228,8 @@
                                 <span data-feather="clock" width="35" height="35"></span>
                             </div>
                         </div>
-                        <h5>Подмена фингерпринтов</h5>
-                        <p class="text-muted">Имитируем ботов под реальных пользователей, что позволяет нашим сервисам работать круглосуточно</p>
+                        <h5>Анализ и адаптация цифровых идентификаторов</h5>
+                        <p class="text-muted">Используем передовые методы анализа для корректного взаимодействия с веб-платформами, имитируя поведение реальных пользователей в рамках допустимого.</p>
                     </div>
                     <div class="col-md-6 box">
                         <div class="icon-box box-success">
@@ -305,6 +311,16 @@
         </div>
     </div>
 </section>
+
+<!-- Контакты -->
+<div id="contacts-container"></div>
+<script>
+    fetch('html/contacts.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('contacts-container').innerHTML = data;
+        });
+</script>
 
 <!-- Раздел часто задаваемых вопросов -->
 <div id="faq-container"></div>
