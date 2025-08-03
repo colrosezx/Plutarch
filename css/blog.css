@@ -1,0 +1,46 @@
+.py-9 {
+  padding-top: 1rem !important; }
+
+.card-img-top {
+    height: 250px; /* Фиксированная высота для всех превью */
+    object-fit: cover; /* Чтобы изображение заполняло область */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.02); /* Легкое увеличение при наведении */
+}
+
+.article-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.article-content h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.article-content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.article-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.badge-primary {
+  margin-right: 5px;
+}
+
+.card-title:hover {
+    color: orange;
+}
+
+.card-title {
+    transition: color 0.3s ease;
+}

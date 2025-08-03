@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Обязательные мета-теги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Plutarch Data Analytics</title>
+    <meta name="description" content="Разработка кастомных решений по сбору и аналитике данных с маркетплейсов, бирж и магазинов.">
+
+    <!-- Шрифт Inter UI -->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+
+    <!-- Стили для поставщиков -->
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/slick.min.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
+
+    <!-- Bootstrap CSS / Цветовая схема -->
+    <link rel="stylesheet" href="/css/orange.css" id="theme-color">
+    <link rel="stylesheet" href="/css/blog.css">
+
+    <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+    <link rel="canonical" href="https://colrosezx.github.io/Plutarch/" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Plutarch Data Analytics",
+            "url": "https://plutarch.ru",
+            "logo": "https://plutarch.ru/img/logo.png",
+            "description": "парсинг сайтов, автоматический сбор данных, анализ данных, парсер для бизнеса, аналитика данных, сбор информации с сайтов, инструмент для сбора данных, веб-скрейпинг, кастомные решения по парсингу, анализ с AI, Искуственный интеллект в парсинге, парсинг маркетплейсов, парсинг магазинов",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+7-982-623-0683",
+                "contactType": "customer service",
+                "email": "plutarchdatahub@gmail.com",
+                "areaServed": "RU",
+                "availableLanguage": ["Russian"]
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Портфолио сайтов для парсинга",
+                "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Boutiqaat",
+                    "url": "https://www.boutiqaat.com",
+                    "areaServed": "Катар, ОАЭ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Debenhams",
+                    "url": "https://www.debenhams.com",
+                    "areaServed": "Катар"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Noon",
+                    "url": "https://www.noon.com",
+                    "areaServed": "Саудовская Аравия, Дубай"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Skinfood",
+                    "url": "https://www.skinfood.by",
+                    "areaServed": "Беларусь"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Wildberries",
+                    "url": "https://www.wildberries.ru/",
+                    "areaServed": "СНГ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Ozon",
+                    "url": "https://www.ozon.ru/",
+                    "areaServed": "СНГ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Сбер Мегамаркет",
+                    "url": "https://megamarket.ru/",
+                    "areaServed": "РФ"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                    "@type": "WebSite",
+                    "name": "Л'Этуаль",
+                    "url": "https://www.letu.ru/",
+                    "areaServed": "СНГ"
+                    }
+                }
+                ]
+            }
+        }
+    </script>
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://colrosezx.github.io/Plutarch/"/>
+    <meta property="og:title" content="Plutarch Data Analytics"/>
+    <meta property="og:description" content="Разработка кастомных парсеров и инструментов аналитики для бизнеса любых масштабов." />
+    <meta property="og:image" content="https://colrosezx.github.io/Plutarch/img/oglogo.png"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Plutarch Data Analytics" />
+    <meta name="twitter:description" content="Разработка кастомных парсеров и инструментов аналитики для бизнеса любых масштабов." />
+    <meta name="twitter:image" content="https://colrosezx.github.io/Plutarch/img/oglogo.png" />
+
+<!--    <link rel="icon" href="img/plutarch_favicon.jpg" type="image/x-icon">-->
+</head>
+<body>
+
+<!-- Навигация -->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black" href="index.html">
+                <span class="text-white">Plutarch Data Analytics</span>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Переключить навигацию">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/index.html#portfolio">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/#features">Особенности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/#solutions">Отраслевые решения</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/#faq">Часто задаваемые вопросы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/#contacts">Наши контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/blog.html">Блог</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!-- Контент статьи -->
+<section class="py-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <!-- Хлебные крошки -->
+                
+                <!-- Заголовок статьи -->
+                <h1 class="display-4 mb-4">Как парсить... ваших собственных клиентов? Теневое профилирование аудитории</h1>
+                
+                <!-- Мета-информация -->
+                <div class="d-flex align-items-center mb-5">
+                    <span class="text-muted mr-3">26 июля 2025</span>
+                    <span class="badge badge-primary">Аналитика</span>
+                    <span class="badge badge-primary">Маркетинг</span>
+                    <span class="badge badge-primary">Персонализация</span>
+                </div>
+                
+                <!-- Превью изображение -->
+                <img src="/blog/img/article2.png" alt="Теневое профилирование клиентов через публичные данные" class="img-fluid rounded mb-5">
+                
+                <!-- Содержимое статьи -->
+                <div class="article-content">
+                    <p class="lead">Знаете ли вы, что 78% данных о ваших клиентах уже лежат в открытом доступе? Социальные сети, отзывы, форумы и другие источники содержат золотую жилу информации, которую можно легально собирать для построения точных портретов аудитории без сложных опросов.</p>
+                    
+                    <h2 class="mt-5 mb-3">Что такое теневое профилирование?</h2>
+                    <p><strong>Теневое профилирование</strong> — это метод сбора и анализа публичных данных о клиентах для создания детализированных портретов аудитории. В отличие от традиционных опросов, этот подход дает более объективную картину, так как основан на реальном поведении, а не на декларируемых предпочтениях.</p>
+
+                    <p>Какие данные можно собирать легально:</p>
+                    <ul>
+                        <li><strong>Социальные сети:</strong> интересы, демография, стиль жизни;</li>
+                        <li><strong>Отзывы:</strong> боли, критерии выбора, эмоциональные триггеры;</li>
+                        <li><strong>Форумы и Q&A:</strong> неосознанные потребности, язык аудитории;</li>
+                        <li><strong>Публичные профили:</strong> профессия, геолокация, активность.</li>
+                    </ul>
+
+                    <h2 class="mt-5 mb-3">5 шагов для легального сбора данных</h2>
+                    
+                    <h3 class="mt-4 mb-2">1. Определите цели исследования</h3>
+                    <p>Четко сформулируйте, какие аспекты поведения клиентов вам нужно понять:</p>
+                    <ul>
+                        <li>Покупательские привычки</li>
+                        <li>Критерии выбора товаров</li>
+                        <li>Боли и возражения</li>
+                        <li>Ценовая чувствительность</li>
+                    </ul>
+                    
+                    <h3 class="mt-4 mb-2">2. Выберите источники данных</h3>
+                    <p>Основные каналы для сбора информации:</p>
+                    <ul>
+                        <li><strong>VK, Telegram, Одноклассники</strong> — для аудитории 35+</li>
+                        <li><strong>Instagram, TikTok</strong> — для молодой аудитории</li>
+                        <li><strong>Отзовики и маркетплейсы</strong> — анализ отзывов</li>
+                        <li><strong>Форумы и тематические сообщества</strong> — глубинные инсайты</li>
+                    </ul>
+                    
+                    <h3 class="mt-4 mb-2">3. Используйте правильные инструменты</h3>
+                    <p>Для автоматизации сбора:</p>
+                    <ul>
+                        <li><strong>Parserr</strong> — парсинг соцсетей и форумов</li>
+                        <li><strong>Brand Analytics</strong> — анализ отзывов с маркетплейсов</li>
+                        <li><strong>YouScan</strong> — мониторинг упоминаний</li>
+                        <li><strong>Google Alerts</strong> — отслеживание по ключевым словам</li>
+                    </ul>
+                    <p class="alert alert-warning mt-3">Важно: всегда проверяйте соответствие методов законодательству о персональных данных.</p>
+                    
+                    <h3 class="mt-4 mb-2">4. Анализируйте и сегментируйте</h3>
+                    <p>Методы обработки данных:</p>
+                    <ul>
+                        <li>Кластеризация по демографии и интересам</li>
+                        <li>Анализ тональности отзывов</li>
+                        <li>Выявление ключевых слов и фраз</li>
+                        <li>Построение карт customer journey</li>
+                    </ul>
+                    
+                    <h3 class="mt-4 mb-2">5. Внедряйте инсайты в маркетинг</h3>
+                    <p>Как использовать полученные данные:</p>
+                    <ul>
+                        <li>Персонализация рекламных сообщений</li>
+                        <li>Оптимизация ассортимента</li>
+                        <li>Улучшение карточек товаров</li>
+                        <li>Создание релевантного контента</li>
+                    </ul>
+                    
+                    <h2 class="mt-5 mb-3">Кейс: как бренд косметики увеличил конверсию на 37%</h2>
+                    <p>Российский бренд уходовой косметики проанализировал 5,000+ отзывов на Wildberries и Ozon с помощью текстовой аналитики. Выяснилось, что:</p>
+                    <ul>
+                        <li>43% покупателей упоминали аллергические реакции</li>
+                        <li>28% жаловались на маленький объем упаковки</li>
+                        <li>Основной критерий выбора — натуральный состав</li>
+                    </ul>
+                    <p>После оптимизации карточек товаров с акцентом на гипоаллергенность и выпуска пробников конверсия выросла на 37% за 2 месяца.</p>
+                    
+                    <h2 class="mt-5 mb-3">Этические границы и законность</h2>
+                    <p>Что нельзя делать при сборе данных:</p>
+                    <ul>
+                        <li>Использовать личные сообщения и закрытые профили</li>
+                        <li>Хранить персональные данные без согласия</li>
+                        <li>Деанонимизировать пользователей</li>
+                        <li>Нарушать правила платформ (например, автоматический сбор через ботов в соцсетях)</li>
+                    </ul>
+                    <p>Работайте только с публично доступной информацией и агрегированными данными.</p>
+                    
+                    <h2 class="mt-5 mb-3">Вывод</h2>
+                    <p>Теневое профилирование — мощный инструмент для понимания реальных потребностей клиентов без дорогих исследований. Главные правила:</p>
+                    <ol>
+                        <li><strong>Собирайте только публичные данные</strong> — соблюдайте закон</li>
+                        <li><strong>Автоматизируйте процесс</strong> — используйте парсеры и аналитические инструменты</li>
+                        <li><strong>Фокусируйтесь на инсайтах</strong> — ищите неочевидные закономерности</li>
+                        <li><strong>Тестируйте гипотезы</strong> — проверяйте данные на практике</li>
+                    </ol>
+                    
+                    <p>Начните с анализа отзывов на ваши товары — это самый простой и безопасный способ получить первые ценные инсайты о клиентах. </p>
+                </div>
+                
+                <!-- Кнопка возврата -->
+                <div class="text-center mt-5">
+                    <a href="/blog.html" class="btn btn-outline-primary">Вернуться к списку статей</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--подвал-->
+<footer class="py-6">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-muted text-center small-xl">
+                &copy; 2025 Plutarch Data Analytics. Все права защищены.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--промотать вверх-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+<!-- Сначала jQuery, потом Popper.js, потом Bootstrap JS -->
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/feather.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/js/scripts.js"></script>
+</body>
+</html>
